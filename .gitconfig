@@ -1,0 +1,9 @@
+[user]
+	name = Sylvain Chamberland
+	email = gentx2@gmail.com
+[core]
+	editor = code --wait
+[diff]
+    tool = default-difftool
+[difftool "default-difftool"]
+    cmd = code --wait --diff $LOCAL $REMOTE
