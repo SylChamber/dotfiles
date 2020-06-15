@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # copie des alias
-cp ~/dotfiles/.bash_aliases ~/
+cp $HOME/dotfiles/.bash_aliases $HOME/
 
 # copie des paramètres git
-if [ -f ~/.gitconfig ]; then
-    mv ~/.gitconfig .gitconfig.original
+if [ -f $HOME/.gitconfig ]; then
+    mv $HOME/.gitconfig $HOME/.gitconfig.original
 fi
-cp -f ~/dotfiles/.gitconfig ~/
+cp -f $HOME/dotfiles/.gitconfig $HOME/
